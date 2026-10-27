@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="WooklyDev — Practical software. Better workflows.">
+<title>WooklyDev — Practical software. Better workflows.</title>
+<rect width="1200" height="330" fill="#f5f7fc"/>
+<rect width="8" height="330" fill="#5377ce"/>
+<g transform="translate(38 24) scale(1.2)"><g fill="#5377ce"><path d="M12 18H28L40 58L51 31L59 51L47 78H31Z"/><path d="M48 18H64L78 58L90 18H106L87 78H71Z"/><path d="M48 18H64L70 35H54Z" fill="#edbd48"/></g></g>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="184" y="104" fill="#233654" font-size="56" font-weight="700" letter-spacing="-1.8">WooklyDev</text>
+<text x="54" y="203" fill="#233654" font-size="36" font-weight="600" letter-spacing="-.5">Practical software.</text>
+<text x="54" y="249" fill="#233654" font-size="36" font-weight="600" letter-spacing="-.5">Better workflows.</text>
+<text x="54" y="297" fill="#51647e" font-size="17" letter-spacing="2">WINDOWS APPS · WEB TOOLS</text>
+<text x="1108" y="297" text-anchor="end" fill="#51647e" font-size="18">wookly.dev</text>
+</g>
+<g fill="none" stroke="#5377ce" stroke-width="3" opacity=".7">
+<path d="M775 77H903L955 129H1108"/>
+<path d="M775 143H865L917 195H1108"/>
+<path d="M775 209H828L880 261H970"/>
+</g>
+<g fill="#5377ce"><circle cx="775" cy="77" r="7"/><circle cx="775" cy="143" r="7"/><circle cx="775" cy="209" r="7"/></g>
+<g fill="#edbd48"><circle cx="1108" cy="129" r="8"/><circle cx="1108" cy="195" r="8"/><circle cx="970" cy="261" r="8"/></g>
+</svg>
