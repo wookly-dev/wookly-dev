@@ -1,31 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="610" viewBox="0 0 600 610" role="img" aria-labelledby="title desc">
 <title id="title">WooklyDev terminal — practical Windows apps and web tools</title>
-<desc id="desc">A decorative shell introduces WooklyDev and NetLoom with typed commands. It does not connect to a live system.</desc>
+<desc id="desc">A decorative shell introduces WooklyDev and NetLoom with a typing effect at the final prompt. It does not connect to a live system.</desc>
 <style>
 text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
 .body { font-size: 22px; fill: #d7e0eb; }
 .type-about { width: 172px; }
 .type-products { width: 172px; }
+.type-ready { width: 278px; }
 @media (prefers-reduced-motion: no-preference) {
- .type-about { animation: type-about 20s steps(13,end) infinite; }
- .type-products { animation: type-products 20s steps(12,end) infinite; }
- .about-output { animation: about-output 20s step-end infinite; }
- .product-prompt { animation: product-prompt 20s step-end infinite; }
- .product-output { animation: product-output 20s step-end infinite; }
- .ready-prompt { animation: ready-prompt 20s step-end infinite; }
- .cursor { animation: cursor 1.2s step-end infinite; }
+ .type-ready { animation: type-ready 12s steps(21,end) infinite; }
+ .cursor { animation: cursor-position 12s steps(21,end) infinite, cursor 1.2s step-end infinite; }
 }
-@keyframes type-about { 0%,4% {width:0} 20%,96%,100% {width:172px} }
-@keyframes type-products { 0%,32% {width:0} 48%,96%,100% {width:172px} }
-@keyframes about-output { 0% {opacity:0} 22%,100% {opacity:1} }
-@keyframes product-prompt { 0% {opacity:0} 30%,100% {opacity:1} }
-@keyframes product-output { 0% {opacity:0} 50%,100% {opacity:1} }
-@keyframes ready-prompt { 0% {opacity:0} 55%,100% {opacity:1} }
+@keyframes type-ready { 0%,5% {width:0} 35%,100% {width:278px} }
+@keyframes cursor-position { 0%,5% {x:278px} 35%,100% {x:556px} }
 @keyframes cursor { 0%,49% {opacity:1} 50%,100% {opacity:0} }
 </style>
 <defs>
  <clipPath id="about-clip"><rect x="30" y="251" width="172" height="32" class="type-about"/></clipPath>
  <clipPath id="products-clip"><rect x="30" y="413" width="172" height="32" class="type-products"/></clipPath>
+ <clipPath id="ready-clip"><rect x="278" y="548" width="278" height="32" class="type-ready"/></clipPath>
 </defs>
 <rect x="1" y="1" width="598" height="608" rx="12" fill="#080b10" stroke="#293341" stroke-width="2"/>
 <path d="M1 46H599" stroke="#293341"/>
@@ -40,6 +33,6 @@ text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
  <g class="about-output"><text x="30" y="315" fill="#9aa9ba">Windows apps + web tools.</text><text x="30" y="347" fill="#8aa8ed">wookly.dev</text></g>
  <g class="product-prompt"><text x="40" y="398" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text><text x="30" y="437" clip-path="url(#products-clip)">ls products/</text></g>
  <g class="product-output"><text x="30" y="477" fill="#edbd48">NetLoom/</text><text x="30" y="509" fill="#9aa9ba">IPv4 audit + 2D/3D topology</text></g>
- <g class="ready-prompt"><text x="40" y="572" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text><rect x="278" y="553" width="12" height="23" fill="#88cca3" class="cursor"/></g>
+ <g class="ready-prompt"><text x="40" y="572" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text><text x="278" y="572" clip-path="url(#ready-clip)">echo "ready to build"</text><rect x="556" y="553" width="12" height="23" fill="#88cca3" class="cursor"/></g>
 </g>
 </svg>
