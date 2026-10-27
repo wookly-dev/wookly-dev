@@ -1,18 +1,17 @@
 <a href="https://wookly.dev">
-  <img src="https://raw.githubusercontent.com/wookly-dev/wookly-dev/main/assets/wookly-banner.svg" alt="WooklyDev — Practical software. Better workflows." width="100%">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/wookly-dev/wookly-dev/main/assets/wookly-terminal-mobile.svg?v=terminal-1">
+    <img src="https://raw.githubusercontent.com/wookly-dev/wookly-dev/main/assets/wookly-banner.svg?v=terminal-1" alt="WooklyDev 터미널 — Windows 앱과 웹 도구를 만들며, 공개 프로젝트 NetLoom을 소개합니다." width="100%">
+  </picture>
 </a>
 
-### 업무 흐름에 맞춘, 실용적인 소프트웨어
+업무 흐름에 맞춘 실용적인 **Windows 앱과 웹 도구**를 만듭니다.
 
-반복 작업을 줄이고 필요한 정보를 한눈에 볼 수 있도록 Windows 앱과 웹 도구를 만듭니다.
-
-Building practical Windows apps and web tools for everyday workflows.
-
-**[웹사이트 · 제품 둘러보기 →](https://wookly.dev)**
+**[wookly.dev](https://wookly.dev)** &nbsp; / &nbsp; **[NetLoom 소스 코드](https://github.com/wookly-dev/NetLoom)**
 
 ---
 
-### NetLoom
+### `~/products/NetLoom`
 
 **네트워크를 발견하고, 연결을 이해하세요.**  
 Windows용 무료 IPv4 네트워크 점검 도구입니다.

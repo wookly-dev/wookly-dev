@@ -1,20 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="WooklyDev — Practical software. Better workflows.">
-<title>WooklyDev — Practical software. Better workflows.</title>
-<rect width="1200" height="330" fill="#f5f7fc"/>
-<rect width="8" height="330" fill="#5377ce"/>
-<g transform="translate(38 24) scale(1.2)"><g fill="#5377ce"><path d="M12 18H28L40 58L51 31L59 51L47 78H31Z"/><path d="M48 18H64L78 58L90 18H106L87 78H71Z"/><path d="M48 18H64L70 35H54Z" fill="#edbd48"/></g></g>
-<g font-family="Segoe UI, Arial, sans-serif">
-<text x="184" y="104" fill="#233654" font-size="56" font-weight="700" letter-spacing="-1.8">WooklyDev</text>
-<text x="54" y="203" fill="#233654" font-size="36" font-weight="600" letter-spacing="-.5">Practical software.</text>
-<text x="54" y="249" fill="#233654" font-size="36" font-weight="600" letter-spacing="-.5">Better workflows.</text>
-<text x="54" y="297" fill="#51647e" font-size="17" letter-spacing="2">WINDOWS APPS · WEB TOOLS</text>
-<text x="1108" y="297" text-anchor="end" fill="#51647e" font-size="18">wookly.dev</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<title id="title">WooklyDev terminal — practical Windows apps and web tools</title>
+<desc id="desc">A decorative shell types cat about.txt and ls products/. Output introduces WooklyDev and NetLoom. It does not connect to a live system.</desc>
+<style>
+text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
+.body { font-size: 22px; fill: #d7e0eb; }
+.type-about { width: 172px; }
+.type-products { width: 172px; }
+@media (prefers-reduced-motion: no-preference) {
+ .type-about { animation: type-about 20s steps(13,end) infinite; }
+ .type-products { animation: type-products 20s steps(12,end) infinite; }
+ .about-output { animation: about-output 20s step-end infinite; }
+ .product-prompt { animation: product-prompt 20s step-end infinite; }
+ .product-output { animation: product-output 20s step-end infinite; }
+ .ready-prompt { animation: ready-prompt 20s step-end infinite; }
+ .cursor { animation: cursor 1.2s step-end infinite; }
+}
+@keyframes type-about { 0%,4% {width:0} 20%,96%,100% {width:172px} }
+@keyframes type-products { 0%,32% {width:0} 48%,96%,100% {width:172px} }
+@keyframes about-output { 0% {opacity:0} 22%,100% {opacity:1} }
+@keyframes product-prompt { 0% {opacity:0} 30%,100% {opacity:1} }
+@keyframes product-output { 0% {opacity:0} 50%,100% {opacity:1} }
+@keyframes ready-prompt { 0% {opacity:0} 55%,100% {opacity:1} }
+@keyframes cursor { 0%,49% {opacity:1} 50%,100% {opacity:0} }
+</style>
+<defs>
+ <clipPath id="about-clip"><rect x="278" y="188" width="172" height="32" class="type-about"/></clipPath>
+ <clipPath id="products-clip"><rect x="278" y="314" width="172" height="32" class="type-products"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1198" height="468" rx="12" fill="#080b10" stroke="#293341" stroke-width="2"/>
+<path d="M1 46H1199" stroke="#293341"/>
+<g font-size="17" fill="#9aa9ba">
+ <text x="26" y="30"><tspan fill="#88cca3">&gt;_</tspan> wookly.dev / profile</text>
+ <text x="1168" y="30" text-anchor="end">bash</text>
 </g>
-<g fill="none" stroke="#5377ce" stroke-width="3" opacity=".7">
-<path d="M775 77H903L955 129H1108"/>
-<path d="M775 143H865L917 195H1108"/>
-<path d="M775 209H828L880 261H970"/>
+<text x="40" y="117" font-size="50" font-weight="700" letter-spacing="-1.7" fill="#edf2f8">WooklyDev</text>
+<text x="42" y="152" font-size="19" fill="#9aa9ba">Practical software. Better workflows.</text>
+<g transform="translate(1028 63) scale(1.05)"><g fill="#5377ce"><path d="M12 18H28L40 58L51 31L59 51L47 78H31Z"/><path d="M48 18H64L78 58L90 18H106L87 78H71Z"/><path d="M48 18H64L70 35H54Z" fill="#edbd48"/></g></g>
+<g class="body">
+ <text x="40" y="212" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text>
+ <text x="278" y="212" clip-path="url(#about-clip)">cat about.txt</text>
+ <g class="about-output">
+  <text x="40" y="251" fill="#9aa9ba">Windows apps and web tools for everyday work.</text>
+  <text x="40" y="282" fill="#8aa8ed">wookly.dev</text>
+ </g>
+ <g class="product-prompt">
+  <text x="40" y="338" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text>
+  <text x="278" y="338" clip-path="url(#products-clip)">ls products/</text>
+ </g>
+ <text x="40" y="377" class="product-output"><tspan fill="#edbd48">NetLoom/</tspan><tspan dx="32" fill="#9aa9ba">IPv4 audit + 2D/3D topology</tspan></text>
+ <g class="ready-prompt">
+  <text x="40" y="434" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text>
+  <rect x="278" y="415" width="12" height="23" fill="#88cca3" class="cursor"/>
+ </g>
 </g>
-<g fill="#5377ce"><circle cx="775" cy="77" r="7"/><circle cx="775" cy="143" r="7"/><circle cx="775" cy="209" r="7"/></g>
-<g fill="#edbd48"><circle cx="1108" cy="129" r="8"/><circle cx="1108" cy="195" r="8"/><circle cx="970" cy="261" r="8"/></g>
 </svg>
