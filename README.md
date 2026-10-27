@@ -1,7 +1,7 @@
 <a href="https://wookly.dev">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/wookly-dev/wookly-dev/main/assets/wookly-terminal-mobile.svg?v=terminal-2">
-    <img src="https://raw.githubusercontent.com/wookly-dev/wookly-dev/main/assets/wookly-banner.svg?v=terminal-2" alt="WooklyDev 터미널 — Windows 앱과 웹 도구를 만들며, 공개 프로젝트 NetLoom을 소개합니다." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/wookly-dev/wookly-dev/4a40313fd9d90951724e6c4a2e41d9bef548057b/assets/wookly-terminal-mobile.svg">
+    <img src="https://raw.githubusercontent.com/wookly-dev/wookly-dev/4a40313fd9d90951724e6c4a2e41d9bef548057b/assets/wookly-banner.svg" alt="WooklyDev 터미널 — Windows 앱과 웹 도구를 만들며, 공개 프로젝트 NetLoom을 소개합니다." width="100%">
   </picture>
 </a>
 
