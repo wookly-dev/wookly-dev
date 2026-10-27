@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="509" viewBox="0 0 1200 509" role="img" aria-labelledby="title desc">
 <title id="title">WooklyDev terminal — practical Windows apps and web tools</title>
-<desc id="desc">A decorative shell introduces WooklyDev and NetLoom. The final prompt types echo ready to build. It does not connect to a live system.</desc>
+<desc id="desc">A decorative shell introduces WooklyDev, NetLoom and CheckMyWeb. The final prompt types echo ready to build. It does not connect to a live system.</desc>
 <style>
 text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
 .body { font-size: 22px; fill: #d7e0eb; }
@@ -18,9 +18,9 @@ text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
 <defs>
  <clipPath id="about-clip"><rect x="278" y="188" width="172" height="32" class="type-about"/></clipPath>
  <clipPath id="products-clip"><rect x="278" y="314" width="172" height="32" class="type-products"/></clipPath>
- <clipPath id="ready-clip"><rect x="278" y="410" width="278" height="32" class="type-ready"/></clipPath>
+ <clipPath id="ready-clip"><rect x="278" y="449" width="278" height="32" class="type-ready"/></clipPath>
 </defs>
-<rect x="1" y="1" width="1198" height="468" rx="12" fill="#080b10" stroke="#293341" stroke-width="2"/>
+<rect x="1" y="1" width="1198" height="507" rx="12" fill="#080b10" stroke="#293341" stroke-width="2"/>
 <path d="M1 46H1199" stroke="#293341"/>
 <g font-size="17" fill="#9aa9ba">
  <text x="26" y="30"><tspan fill="#88cca3">&gt;_</tspan> wookly.dev / profile</text>
@@ -40,11 +40,12 @@ text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
   <text x="40" y="338" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text>
   <text x="278" y="338" clip-path="url(#products-clip)">ls products/</text>
  </g>
- <text x="40" y="377" class="product-output"><tspan fill="#edbd48">NetLoom/</tspan><tspan dx="32" fill="#9aa9ba">IPv4 audit + 2D/3D topology</tspan></text>
+ <text x="40" y="377" class="product-output"><tspan fill="#edbd48">NetLoom/</tspan><tspan x="218" fill="#9aa9ba">IPv4 audit + 2D/3D topology</tspan></text>
+ <text x="40" y="416" class="product-output"><tspan fill="#edbd48">CheckMyWeb/</tspan><tspan x="218" fill="#9aa9ba">Website security self-check</tspan></text>
  <g class="ready-prompt">
-  <text x="40" y="434" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text>
-  <text x="278" y="434" clip-path="url(#ready-clip)">echo "ready to build"</text>
-  <rect x="556" y="415" width="12" height="23" fill="#88cca3" class="cursor"/>
+  <text x="40" y="473" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text>
+  <text x="278" y="473" clip-path="url(#ready-clip)">echo "ready to build"</text>
+  <rect x="556" y="454" width="12" height="23" fill="#88cca3" class="cursor"/>
  </g>
 </g>
 </svg>

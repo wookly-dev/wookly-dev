@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="610" viewBox="0 0 600 610" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="682" viewBox="0 0 600 682" role="img" aria-labelledby="title desc">
 <title id="title">WooklyDev terminal — practical Windows apps and web tools</title>
-<desc id="desc">A decorative shell introduces WooklyDev and NetLoom with a typing effect at the final prompt. It does not connect to a live system.</desc>
+<desc id="desc">A decorative shell introduces WooklyDev, NetLoom and CheckMyWeb with a typing effect at the final prompt. It does not connect to a live system.</desc>
 <style>
 text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
 .body { font-size: 22px; fill: #d7e0eb; }
@@ -18,9 +18,9 @@ text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
 <defs>
  <clipPath id="about-clip"><rect x="30" y="251" width="172" height="32" class="type-about"/></clipPath>
  <clipPath id="products-clip"><rect x="30" y="413" width="172" height="32" class="type-products"/></clipPath>
- <clipPath id="ready-clip"><rect x="278" y="548" width="278" height="32" class="type-ready"/></clipPath>
+ <clipPath id="ready-clip"><rect x="278" y="620" width="278" height="32" class="type-ready"/></clipPath>
 </defs>
-<rect x="1" y="1" width="598" height="608" rx="12" fill="#080b10" stroke="#293341" stroke-width="2"/>
+<rect x="1" y="1" width="598" height="680" rx="12" fill="#080b10" stroke="#293341" stroke-width="2"/>
 <path d="M1 46H599" stroke="#293341"/>
 <g font-size="17" fill="#9aa9ba"><text x="26" y="30"><tspan fill="#88cca3">&gt;_</tspan> wookly.dev / profile</text><text x="568" y="30" text-anchor="end">bash</text></g>
 <text x="30" y="115" font-size="44" font-weight="700" letter-spacing="-1.5" fill="#edf2f8">WooklyDev</text>
@@ -32,7 +32,7 @@ text { font-family: 'Cascadia Code', 'DejaVu Sans Mono', Consolas, monospace; }
  <text x="30" y="275" clip-path="url(#about-clip)">cat about.txt</text>
  <g class="about-output"><text x="30" y="315" fill="#9aa9ba">Windows apps + web tools.</text><text x="30" y="347" fill="#8aa8ed">wookly.dev</text></g>
  <g class="product-prompt"><text x="40" y="398" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text><text x="30" y="437" clip-path="url(#products-clip)">ls products/</text></g>
- <g class="product-output"><text x="30" y="477" fill="#edbd48">NetLoom/</text><text x="30" y="509" fill="#9aa9ba">IPv4 audit + 2D/3D topology</text></g>
- <g class="ready-prompt"><text x="40" y="572" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text><text x="278" y="572" clip-path="url(#ready-clip)">echo "ready to build"</text><rect x="556" y="553" width="12" height="23" fill="#88cca3" class="cursor"/></g>
+ <g class="product-output"><text x="30" y="477" fill="#edbd48">NetLoom/</text><text x="30" y="509" fill="#9aa9ba">IPv4 audit + 2D/3D topology</text><text x="30" y="549" fill="#edbd48">CheckMyWeb/</text><text x="30" y="581" fill="#9aa9ba">Website security self-check</text></g>
+ <g class="ready-prompt"><text x="40" y="644" class=""><tspan fill="#8aa8ed">wookly</tspan><tspan fill="#9aa9ba">@github</tspan><tspan fill="#edbd48">:~</tspan><tspan fill="#88cca3">$</tspan></text><text x="278" y="644" clip-path="url(#ready-clip)">echo "ready to build"</text><rect x="556" y="625" width="12" height="23" fill="#88cca3" class="cursor"/></g>
 </g>
 </svg>
